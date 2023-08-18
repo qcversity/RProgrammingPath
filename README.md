@@ -8,7 +8,7 @@ by Rich Iannone and Malcolm Barrett
 
 -----
 
-:spiral_calendar: January 27 and 28, 2020  
+:spiral_calendar: Start Date of this Program: August 19, 2020  
 :alarm_clock:     09:00 - 17:00  
 :hotel:           Golden Gate Room 8  
 :writing_hand:    [rstd.io/conf](http://rstd.io/conf)
