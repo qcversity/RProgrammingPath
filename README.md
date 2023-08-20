@@ -26,13 +26,13 @@ R Programming Path
 
 ## Learning objectives
 
-
+<!--
 ## Table of Content
 
 | Time          | Activity                       |
 | :------------ | :----------------------------- |
 |               |                                |
-
+--!>
 
 # Installing R and Rstudio Using Choco Package Manager 
 
