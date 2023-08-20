@@ -34,16 +34,22 @@ R Programming Path
 |               |                                |
 
 
+# Installing R and Rstudio Using Choco Package Manager 
 
 ## Installing Choco Package Manager 
 
 ### Installing Choco Using Command Prompt `CMD`
 
+- You can launch the command prompt as administrator and simply copy and paste the code provided [here](https://community.chocolatey.org/courses/installation/installing#cmd) using (<kbd>Ctrl</kbd> + <kbd>V</kbd>) or (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>) in the command line and press <kbd>Enter</kbd>. You may need to type y if that prompted to you.
 
-- You can launch the command prompt as administrator and simply copy and paste (<kbd>Ctrl</kbd> + <kbd>V</kbd>) the code provided [here](https://community.chocolatey.org/courses/installation/installing#cmd)
+### Installing Choco Using Command Prompt `Powershell`
+
+- You can launch the command prompt as administrator and simply copy and paste the code provided [here](https://community.chocolatey.org/courses/installation/installing#powershell) using (<kbd>Ctrl</kbd> + <kbd>V</kbd>) or (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>) in the command line and press <kbd>Enter</kbd>. You may need to type y if that prompted to you.
+
+
 
 -----
 
-![](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is
+![](https://i.creativecommons.org/l/by/4.0/88x31.png)  This work is
 licensed under a [Creative Commons Attribution 4.0 International
 License](https://creativecommons.org/licenses/by/4.0/).
