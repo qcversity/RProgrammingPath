@@ -1,3 +1,6 @@
+<div align="center"><img src="./assets/rlogo red.jpg"></div>
+
+
 R Programming Path
 ================
 This repository is a comprehensive guide to mastering pure R programming, a powerful language for data analysis, statistical computing, and visualization. Through this repository, our main goal is to put you on the right path to learn this powerful programming language. If you are looking to enhance your R skills, our curated collection of resources, tutorials, and projects will help you embark on a successful R programming journey.
