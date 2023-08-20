@@ -1,4 +1,6 @@
-<div align="center"><img src="./assets/Rlogo red.png" style="width: 40%;"></div>
+<div align="center" style="background-color: rgba(0, 128, 128, 0.5);">
+  <img src="./assets/Rlogo red.png" style="width: 40%;">
+</div>
 
 
 R Programming Path
