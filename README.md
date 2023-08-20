@@ -3,7 +3,6 @@
 </div>
 
 <div style="background-color: teal; padding: 10px; background-image: url('./assets/RLogoteal.png'); background-repeat: repeat-x;">
-  <img src="./assets/RLogoteal.png" alt="Image" style="display: none;">
 </div>
 
 R Programming Path
