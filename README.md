@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/RLogoteal.png" style="width:100%;height:20%;">
+  <img src="./assets/RLogoteal.png" style="width:50%;height:20%;">
 </div>
 
 
