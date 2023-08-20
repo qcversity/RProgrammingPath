@@ -34,9 +34,6 @@ Explore a range of topics, from R basics and data manipulation to advanced stati
 
 
 
-[Installing R](https://github.com/qcversity/RProgrammingPath/blob/main/InstallingR.md)
-
-
 
 ## Repo Launch Date
 
