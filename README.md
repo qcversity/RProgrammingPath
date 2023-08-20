@@ -1,5 +1,7 @@
-<div align="center" style="background-color:blue;">
+<div style="background-color:blue;">
+<div align="center">
   <img src="./assets/Rlogo red.png" style="width: 40%;">
+</div>
 </div>
 
 
