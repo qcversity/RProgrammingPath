@@ -1,5 +1,5 @@
 <div align="repeat">
-  <img src="./assets/RLogoteal.png" style="height:10%;">
+  <img src="./assets/RLogoteal.png" style="height:2%;">
 </div>
 
 
