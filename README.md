@@ -1,4 +1,4 @@
-<div align="center" style="background-color: rgba(0, 128, 128, 0.5);">
+<div align="center" style="background-color:blue;">
   <img src="./assets/Rlogo red.png" style="width: 40%;">
 </div>
 
