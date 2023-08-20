@@ -4,6 +4,11 @@
 </div>
 </div>
 
+<div style="background-color: teal; padding: 10px;">
+  <div align="center">
+    <img src="./assets/Rlogo red.png" style="width: 40%;">
+  </div>
+</div>
 
 R Programming Path
 ================
