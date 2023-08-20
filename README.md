@@ -41,7 +41,7 @@ This repository is a reflection of my dedication to sharing insights, code, and 
 ## Table of Contents
 
 - [Installing R](https://github.com/qcversity/RProgrammingPath/blob/main/InstallingR.md)
-  - [Installing R On Windows Machines](https://github.com/qcversity/RProgrammingPath/blob/main/01.%20REnvSetup/01.%2001.%20Installing%20R%20on%20Windows%20)  
+  - [Installing R On Windows Machines](01. REnvSetup/01. 01. Installing R on Windows .html)   
   - [Tutorials](#tutorials)
  
 
