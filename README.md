@@ -1,4 +1,4 @@
-<div align="center"><img src="./assets/rlogo red.jpg"></div>
+<div align="center"><img src="./assets/Rlogo red.png"></div>
 
 
 R Programming Path
