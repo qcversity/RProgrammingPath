@@ -14,7 +14,7 @@ R Programming Path
 ## Repository Overview 
 
 
-## Author and Maintainer Dr Saad Laouadi
+## About the Author 
 
 
 
@@ -33,6 +33,14 @@ R Programming Path
 | :------------ | :----------------------------- |
 |               |                                |
 
+
+
+## Installing Choco Package Manager 
+
+### Installing Choco Using Command Prompt `CMD`
+
+
+- You can launch the command prompt as administrator and simply copy and paste (<kbd>Ctrl</kbd> + <kbd>V</kbd>) the code provided [here](https://community.chocolatey.org/courses/installation/installing#cmd)
 
 -----
 
