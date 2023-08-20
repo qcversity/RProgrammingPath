@@ -1,4 +1,4 @@
-<div align="center">
+<div align="repeat">
   <img src="./assets/RLogoteal.png" style="width:50%;height:20%;">
 </div>
 
