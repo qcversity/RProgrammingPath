@@ -9,56 +9,43 @@ This repository is a comprehensive guide to mastering pure R programming, a powe
 
 Explore a range of topics, from R basics and data manipulation to advanced statistical modeling and data visualization techniques. Whether you're building a solid foundation or expanding your expertise, this repository is your roadmap to becoming a proficient R programmer.
 
-## Repo Launch Date
-
------
-
-:spiral_calendar: Start Date of this Program: August 19, 2023  
-:alarm_clock:      
-:writing_hand:   
-
------
-
-## Repository Overview 
-
-
 ## About the Author 
 
+
+## Learning objectives
 
 
 ## Overview About R Programming
 
 
+## Sponsors
+
+| Sponsor | Pitch |
+| --- | --- |
+| --- | Be the first to sponsor! `https://github.com/qcversity` |
 
 
 
-## Learning objectives
+## Table of Contents
 
-<!--
-## Table of Content
+- [Installing R](https://github.com/qcversity/RProgrammingPath/blob/main/InstallingR.md)
+  - [Tutorials](#tutorials)
+ 
 
-| Time          | Activity                       |
-| :------------ | :----------------------------- |
-|               |                                |
-
--->
 
 
 [Installing R](https://github.com/qcversity/RProgrammingPath/blob/main/InstallingR.md)
 
-# Installing R and Rstudio Using Choco Package Manager 
-
-## Installing Choco Package Manager 
-
-### Installing Choco Using Command Prompt `CMD`
-
-:small_blue_diamond: You can launch the command prompt as administrator and simply copy and paste the code provided [here](https://community.chocolatey.org/courses/installation/installing#cmd) using (<kbd>Ctrl</kbd> + <kbd>V</kbd>) or (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>) in the command line and press <kbd>Enter</kbd>. You may need to type y if that prompted to you.
-
-### Installing Choco Using Command Prompt `Powershell`
-
-:small_blue_diamond: You can launch the command prompt as administrator and simply copy and paste the code provided [here](https://community.chocolatey.org/courses/installation/installing#powershell) using (<kbd>Ctrl</kbd> + <kbd>V</kbd>) or (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>) in the command line and press <kbd>Enter</kbd>. You may need to type y if that prompted to you.
 
 
+## Repo Launch Date
+
+-----
+
+:spiral_calendar: Start Date of this Program: August 19, 2023      
+:writing_hand:   
+
+-----
 
 -----
 
