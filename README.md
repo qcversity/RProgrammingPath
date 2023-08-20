@@ -1,14 +1,8 @@
-<div style="background-color: rgba(0, 128, 128, 0.5); padding: 10px;">
 <div align="center">
-  <img src="./assets/Rlogo red.png" style="width:40%;">
-</div>
+  <img src="./assets/Rlogoteal.png" style="width:40%;">
 </div>
 
-<div style="background-color: teal; padding: 10px;">
-  <div align="center">
-    <img src="./assets/Rlogo red.png" style="width: 40%;">
-  </div>
-</div>
+
 
 R Programming Path
 ================
