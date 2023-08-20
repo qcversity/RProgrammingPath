@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Installing R On Windows Machines</title>
+   <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body">
+
+<div style="color:blue; font-size:24pt; font-weight:700;">Installing R On Windows Machines</div>
+
+<h1 id="introduction">Introduction</h1>
+
+<ul>
+<li><p>Installing softwares sometimes can be tricky or even daunting for computer novices, even for regular or home users.</p></li>
+<li><p>In this tutorial, we will walk you through installing R, RStudio IDE, Classic Jupyter and Jupyter lab step by step, and with different ways, using graphical user interface and Command Line Interface. We will also use some utilities such as <code>wget</code> and <code>choco</code> package manager.</p></li>
+<li><p>The third way of installing R is an advanced way that gives you the ability of full control over installing a software.</p></li>
+</ul>
+<h2 id="installation-and-setup">Installation and Setup</h2>
+<h2 id="the-regular-installation">The Regular Installation</h2>
+<ul>
+<li>The first step is to install R from <a href="https://cran.r-project.org/">CRAN</a></li>
+</ul>
+<h2 id="installing-r-using-command-line-interface">Installing R Using Command Line Interface</h2>
+<ul>
+<li><p>Entering the technical world will eventually lead you to use the command line interface or CLI, in Windows, there are two native CLIs, CMD and PowerShell.</p></li>
+<li><p>In this section, we will discuss how to install R using the command line CMD, you can use PowerShell, or any similar command line installed on your system.</p></li>
+<li><p>To be able to follow along this section, you need to install first few utilities in this sequence:</p>
+<ol type="1">
+<li>Installing <code>chocolatey (choco)</code>: Which is a package manager for Windows.</li>
+<li>Installing <code>wget</code> using <code>choco</code>, this is optional, however, we prefer to use this tool so we can determine the directory (folder) where the installer will be.</li>
+<li>Run the installer from the command prompt.</li>
+</ol></li>
+<li><p>In a later section, we will discuss how to use the command prompt to custom the R installation, knowing this step requires prior knowledge of how computers work, however it provides more control over your system.</p></li>
+</ul>
+<h3 id="installing-chocolatey">Installing <code>Chocolatey</code></h3>
+<ul>
+<li><p>You can start the command prompt by typing <code>cmd</code> in the search (usually looks like the magnifying glass), You will find the Command Prompt app, you have to run in admin mode since you are installing a new software. Or use a combination of keys from the keyboard (Win + R), then type cmd in the Run dialog, to start cmd in Admin mode, you need to use Shift + enter keys.</p></li>
+<li><p>You can open PowerShell the same way.</p></li>
+<li><p>Here is the link to install <code>choco</code> using CMD: <a href="https://community.chocolatey.org/courses/installation/installing">Install with cmd</a></p></li>
+<li><p>Or you can install that from the PowerShell from this <a href="https://community.chocolatey.org/courses/installation/installing#powershell">Install with PowerShell</a></p></li>
+</ul>
+<h3 id="installing-wget-or-curl">Installing <code>wget</code> or <code>curl</code></h3>
+<ul>
+<li><p>You can install <code>wget</code> or <code>curl</code> utilities to download softwares or package from the Internet. Using these tools facilitates the downloading process, however, you do not need to use them if don’t want to.</p></li>
+<li><p>You can download <code>wget</code> from the <a href="https://gnuwin32.sourceforge.net/packages/wget.htm">official website</a> and then run the installer, and follow the installation instruction. Wait, we just downloaded a Windows package manager, this will make your life a lot easier, and now it the time to discover a world of fun using the command prompt, I am quite sure you will fall in love with using the command prompt.</p></li>
+<li><p>To install <code>wget</code> using <code>choco</code> simply run the following command (You must start CMD or PowerShell in admin mode)</p></li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">choco</span> install wget </span></code></pre></div>
+<ul>
+<li>This will prompt you to type <code>y</code> to confirm the installation, if you trust the package, you can even suppress the confirmation prompt by adding <code>-y</code> flag like this:</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">choco</span> install wget <span class="at">-y</span></span></code></pre></div>
+<ul>
+<li>Voila, that is it, <code>wget</code> installed on your system and it is ready to for use. I told you, the using the command prompt will make your life easier.</li>
+</ul>
+<h3 id="installing-r-using-choco">Installing R Using <code>choco</code></h3>
+<ul>
+<li>Installing R using <code>choco</code> package manager is the easiest and fastest way, it is simply typing a simple command and it will do most of the things for you, like downloading, check data integrity and adding R to the path. No intervention from you, simply type the following command, and if you don’t wish for confirmation prompt add <code>-y</code> flag. However, if you are interested in the file that does all this, you can do that by typing <code>p</code> when it is prompted that to you, if satisfied, type <code>y</code> to proceed.</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">choco</span> install r <span class="at">-y</span></span></code></pre></div>
+<h3 id="downloading-r-and-running-the-installer">Downloading R and Running The Installer</h3>
+<ul>
+<li>Now, it is time to download R installer, check its data integrity, then run the installer all from within the command prompt, at this stage we will accept the default settings provided with the installer. Here the steps of processing the installation:</li>
+</ul>
+<ol type="1">
+<li>Let us create a folder (directory) like <code>Rstuff</code> in <code>C:\Users\Public\RStuff</code> , the placement where the installer will be using the this command (You can create the folder of your choice)</li>
+</ol>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> Rstuff</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> Rstuff</span></code></pre></div>
+<ol start="2" type="1">
+<li>Download the installer using the installer using <code>wget</code></li>
+</ol>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> https://cran.r-project.org/bin/windows/base/R-4.3.1-win.exe</span></code></pre></div>
+<ol start="3" type="1">
+<li>Check the integrity if you wish with the hash key provided, if they don’t match, it means that the installer did not download correctly of it is tampered with.
+<ul>
+<li>First, you need to check the hash-key or <a href="https://cran.r-project.org/bin/windows/base/md5sum.R-4.3.1.txt">fingerprint</a></li>
+<li>Generate the hash key for the installer using <code>cerutil</code> utility.</li>
+<li>Compare the keys</li>
+<li>You can save both keys in different files then use the <code>cf</code> command to make sure that keys are really match.</li>
+</ul></li>
+</ol>
+<ul>
+<li>Here are the steps of checking data integrity:</li>
+</ul>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">certutil</span> <span class="at">-shasum</span> installer MD5</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># You may save this to a file </span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="ex">certutil</span> <span class="at">-shasum</span> installer MD5 <span class="op">&gt;</span> genkey.txt</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Copy and paste the provided key getkey.txt</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Compare the two files </span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="ex">cf</span> genkey.txt getkey.txt</span></code></pre></div>
+<ul>
+<li>If you get the message <code>no difference encountered</code> then you are good to go. If the files don’t match, you need to consider downloading the software again.</li>
+</ul>
+<ol start="4" type="1">
+<li>Run the installer: You can simply run the installer from the command prompt, and R will be installed on your system, you may need to confirm the installation, or you may change the directory to a directory where you wish the installation to take place.</li>
+</ol>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">R-4.3.1-win.exe</span></span></code></pre></div>
+<ul>
+<li>Now, R is installed.</li>
+</ul>
+<h3 id="advanced-installation">Advanced Installation</h3>
+<ul>
+<li>This section is meant to professionals who wants to have full control over installing the package like changing the default directory, and silencing the installation or setting environment variables. This can be achieved easily with the paid version of <code>choco</code>, however, we are interested in open source tools, even it takes a little more effort to read the documentation of R (or any other package). We will provide how to that with in here and refer you to section where it is explained:
+<ul>
+<li>Download the installer using <code>wget</code> as explained above.</li>
+<li>Read this <a href="https://cran.r-project.org/bin/windows/base/rw-FAQ.html#Can-I-customize-the-installation_003f">section</a> from R documentation:
+<ul>
+<li>Set the default installation directory <code>‘/DIR="x:\dirname"’</code></li>
+<li><code>‘/CURRENTUSER’</code> to install for the current user only even if the current user has Administrator privileges.</li>
+<li>Silence the installation using one of these options:
+<ul>
+<li><code>‘/SILENT’</code> to only show the installation progress window and error messages.</li>
+<li><code>/VERYSILENT’</code> to only show error messages.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Here is an example to install R in <code>C:\Renv</code> (Renv is directory where the installation will take place) for the current user and totally silencing the installation</li>
+</ul>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">R-4.3.1-win.exe</span> <span class="st">&quot;/Dir=C:\Renv /CURRENTUSER /VERYSILENT&quot;</span></span></code></pre></div>
+<h3 id="checking-the-path">Checking the Path</h3>
+<ul>
+<li>You may want to check that <code>R</code> has been added to the path by typing <code>R</code> in the command prompt, if for some reason it hasn’t been added, we can add it to the path using either the command prompt or the graphical user interface. In this section, we add R to the path using the command prompt (in administrator mode).</li>
+</ul>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="ex">setx</span> /m <span class="st">&quot;path-to-R;%PATH%&quot;</span></span></code></pre></div>
+<ul>
+<li>That is it, relaunch the command prompt and start using R from there. I told you, using the command prompt is incredibly fast and amazing.</li>
+</ul>
+<h3 id="adding-r-to-path-manually">Adding R to Path Manually</h3>
+<ul>
+<li>Open the run dialog (this is the easiest way)
+<ul>
+<li>Type <code>sysdm.cpl</code> in the Run dialog and press enter</li>
+<li>The System properties will pop up</li>
+<li>Go advanced tab</li>
+<li>Press on Environment variables</li>
+<li>Go to System variable and find <code>path</code> and press on edit (This will add Python system wide)</li>
+<li>Press on <code>new</code></li>
+<li>Add the location of the executable Python, this location looks like this <code>C:\Program Files\R\bin</code></li>
+<li>Press ok</li>
+<li>You can add Python to this specific user the same way you did with system variable from <code>User variables</code></li>
+<li>When you finish, press ok, the ok from the environment variables and finally Ok.</li>
+<li>Test that R has been added to the path from the command prompt by typing <code>R --version</code> there.</li>
+</ul></li>
+</ul>
+<h2 id="installing-rstudio">Installing RStudio</h2>
+<ul>
+<li><p>RStudio is an incredibly useful integrated development environment or IDE for writing and using our many data scientists.</p></li>
+<li><p>RStudio is used for writing and testing R codes, because it provides a console window, a code editor, tools for creating plot graphics and debugging code. You can even support version control features.</p></li>
+<li><p>A word of caution, RStudio will not work if you don’t have R installed on your machine., and they must be installed separately.</p></li>
+<li><p>Install <a href="https://posit.co/download/rstudio-desktop/">RStudio</a></p></li>
+</ul>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">wget</span> https://posit.co/download/rstudio-desktop/</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># check the data integrity</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># run the installer</span></span></code></pre></div>
+<ul>
+<li>Let Choco do the job for you</li>
+</ul>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">choco</span> install rstudio</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"></code></pre></div>
+
+  </body>
+</html>
