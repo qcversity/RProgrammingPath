@@ -32,7 +32,8 @@ R Programming Path
 | Time          | Activity                       |
 | :------------ | :----------------------------- |
 |               |                                |
---!>
+
+-->
 
 # Installing R and Rstudio Using Choco Package Manager 
 
