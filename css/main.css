@@ -14,12 +14,19 @@ li {
 body {
   background-color: #f2f2f2;
   font-family: Arial, sans-serif;
+  max-width: 75%;
+  margin: 0 auto;
 }
+
+/* .container {
+  max-width: 80%;
+  margin: 0 auto;
+} */
 
 /* Header styles */
 header {
   background-color: #f5f5dc;
-  color: #fff;
+  color: teal;
   padding: 10px;
   text-align: center;
 }
@@ -28,7 +35,7 @@ header {
 nav {
   background-color: #555;
   color: #fff;
-  text-align: center;
+  text-align: left;
   padding: 10px;
 }
 
